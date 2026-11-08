@@ -1,0 +1,24 @@
+{
+  "name": "ria-primary-circuit-viz",
+  "version": "1.0.0",
+  "description": "Next.js (App Router) front end for a reactivity-initiated-accident transient computed by a Python point-kinetics + 1-D thermal-hydraulics solver (`solver/`, BDF). Colour = moderator water temperature.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": "true",
+  "dependencies": {
+    "next": "^16.4.5",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
+}
